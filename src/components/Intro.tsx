@@ -18,7 +18,7 @@ const Intro = () => {
       </div>
       <p className="mb-10 mt-4 px-4  text-2xl font-medium !leading-[1.5] sm:text-3xl">
         <span className="font-bold">Hello, my name is Gonçalo{" "}</span>
-        and I have recently completed my Master's in{" "}
+        and I have recently completed my Master&apos;s in{" "}
         <span className="underline">Computer Science and Engineering</span>. I
         am mostly interested in{" "}
         <span className="font-bold">back-end{" "}</span>
