@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <section>
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <div>
           <Image
@@ -17,16 +17,15 @@ const Intro = () => {
         </div>
       </div>
       <p className="mb-10 mt-4 px-4  text-2xl font-medium !leading-[1.5] sm:text-3xl">
-        <span className="font-bold">Hello, my name is Gonçalo{" "}</span>
+        <span className="font-bold">Hello, my name is Gonçalo </span>
         and I have recently completed my Master&apos;s in{" "}
         <span className="underline">Computer Science and Engineering</span>. I
-        am mostly interested in{" "}
-        <span className="font-bold">back-end{" "}</span>
+        am mostly interested in <span className="font-bold">back-end </span>
         development but I also enjoy learning some general{" "}
-        <span className="font-bold">web-development{" "}</span>
-        and <span className="font-bold">machine-learning{" "}</span>. I am most
-        familiar with using{" "}
-        <span className="italic underline">Spring Boot{" "}</span>, and
+        <span className="font-bold">web-development </span>
+        and <span className="font-bold">machine-learning </span>. I am most
+        familiar with <span className="italic underline">Spring Boot </span>,
+        and
         <span className="italic underline"> NextJS or React</span>.
       </p>
     </section>
