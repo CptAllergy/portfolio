@@ -10,6 +10,6 @@
 </div>
 
 
-##Sources
+## Sources
 
 Portfolio inspired from NextJS tutorial by ByteGrad: https://www.youtube.com/watch?v=sUKptmUVIBM
