@@ -5,7 +5,10 @@ import { HiDownload } from "react-icons/hi";
 
 const Intro = () => {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex items-center justify-center">
         <div>
           <Image
@@ -20,7 +23,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <p className="mb-10 mt-4 px-4  text-2xl font-medium !leading-[1.5] sm:text-3xl">
+      <h1 className="mb-10 mt-4 px-4  text-2xl font-medium !leading-[1.5] sm:text-3xl">
         <span className="font-bold">Hello, my name is Gonçalo </span>
         and I have recently completed my Master&apos;s in{" "}
         <span className="underline">Computer Science and Engineering</span>. I
@@ -31,7 +34,7 @@ const Intro = () => {
         familiar with <span className="italic underline">Spring Boot </span>,
         and
         <span className="italic underline"> NextJS or React</span>.
-      </p>
+      </h1>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
         <Link
