@@ -10,8 +10,6 @@
 </div>
 
 
-<a href="https://goncaloprates.vercel.app/">Check out the website</a>
-
 ##Sources
 
 Portfolio inspired from NextJS tutorial by ByteGrad: https://www.youtube.com/watch?v=sUKptmUVIBM
