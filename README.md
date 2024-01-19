@@ -12,4 +12,4 @@
 
 ## Sources
 
-Portfolio inspired from NextJS tutorial by ByteGrad: https://www.youtube.com/watch?v=sUKptmUVIBM
+Portfolio inspired from <a href="https://www.youtube.com/watch?v=sUKptmUVIBM">NextJS tutorial by ByteGrad</a>
