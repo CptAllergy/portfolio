@@ -4,7 +4,7 @@
 
   <p align="center">
     <br />
-    <a href="https://goncaloprates.vercel.app/"><strong>Check out the website »</strong></a>
+    <a href="https://goncaloprates.vercel.app/" target="_blank"><strong>Check out the website »</strong></a>
     <br />
   </p>
 </div>
