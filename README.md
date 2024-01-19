@@ -1,6 +1,17 @@
+<br />
+
+  <h3 align="center">Portfolio Website</h3>
+
+  <p align="center">
+    <br />
+    <a href="https://goncaloprates.vercel.app/"><strong>Check out the website »</strong></a>
+    <br />
+  </p>
+</div>
 
 
-Check it out:
-<a href="https://goncaloprates.vercel.app/"/>
+<a href="https://goncaloprates.vercel.app/">Check out the website</a>
 
-Portfolio inspired from tutorial: https://www.youtube.com/watch?v=sUKptmUVIBM
+##Sources
+
+Portfolio inspired from NextJS tutorial by ByteGrad: https://www.youtube.com/watch?v=sUKptmUVIBM
