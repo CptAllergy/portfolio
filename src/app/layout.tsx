@@ -7,7 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Gonçalo Prates",
-  description: "A porfolio",
+  description: "Gonçalo Prates Web Portfolio",
+  icons: {
+    icon: "/favicon2.ico",
+  },
 };
 
 export default function RootLayout({
@@ -18,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} bg-slate-100 text-gray-950 pt-28 sm:pt-36`}
+        className={`${inter.className} bg-slate-100 pt-28 text-gray-950 sm:pt-36`}
       >
         <Header />
         {children}
