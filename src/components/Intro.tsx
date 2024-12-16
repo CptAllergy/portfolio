@@ -31,12 +31,12 @@ const Intro = () => {
         <span className="underline">Computer Science and Engineering</span> and
         I&apos;m mostly interested in{" "}
         <span className="font-bold">back-end </span>
-        development but I also enjoy learning some general{" "}
+        development but I also enjoy{" "}
         <span className="font-bold">web-development </span>
-        and <span className="font-bold">machine-learning </span>. I am most
-        familiar with <span className="italic underline">Spring Boot </span>,
-        and
-        <span className="italic underline"> NextJS or React</span>.
+        and learning about <span className="font-bold">machine-learning </span>.
+        I am most familiar with{" "}
+        <span className="italic underline">Spring Boot </span>
+        and <span className="italic underline"> React</span>.
       </h1>
 
       <div className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row">
