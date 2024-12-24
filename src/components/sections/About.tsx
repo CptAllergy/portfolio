@@ -1,8 +1,14 @@
-import SectionHeading from "./SectionHeading";
+"use client";
+
+import SectionHeading from "../SectionHeading";
+import { useSectionInView } from "@/lib/hooks";
 
 const About = () => {
+  const { ref } = useSectionInView("About", 0.8);
+
   return (
     <section
+      ref={ref}
       id="about"
       className="mb-28 max-w-[45rem] scroll-mt-28 text-center leading-8 sm:mb-40"
     >

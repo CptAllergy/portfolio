@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
+import Header from "@/components/sections/Header";
+import ActiveSectionContextProvider from "@/context/ActiveSectionContext";
+import React from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +25,10 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-slate-100 pt-28 text-gray-950 sm:pt-36`}
       >
-        <Header />
-        {children}
+        <ActiveSectionContextProvider>
+          <Header />
+          {children}
+        </ActiveSectionContextProvider>
       </body>
     </html>
   );
