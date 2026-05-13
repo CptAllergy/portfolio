@@ -30,7 +30,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl">
+      <h1 className="mt-4 mb-10 px-4 text-2xl !leading-[1.5] font-medium sm:text-3xl">
         <span className="font-bold">Hello, my name is Gonçalo </span>
         and I am a <span className="underline">full-stack developer</span>. I
         have a Master&apos;s in{" "}
@@ -48,7 +48,7 @@ const Intro = () => {
       <div className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row">
         <Link
           href="#contact"
-          className="group flex items-center gap-2 rounded-full border border-black/10 bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-105 hover:bg-gray-950 active:scale-100"
+          className="group flex items-center gap-2 rounded-full border border-black/10 bg-gray-900 px-7 py-3 text-white transition outline-none hover:scale-105 hover:bg-gray-950 active:scale-100"
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
@@ -56,7 +56,7 @@ const Intro = () => {
         <a
           href="/CV-EN.pdf"
           download
-          className="group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-105 active:scale-100"
+          className="group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 transition outline-none hover:scale-105 active:scale-100"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
@@ -64,14 +64,14 @@ const Intro = () => {
         <a
           href="https://www.linkedin.com/in/goncaloprates/"
           target="_blank"
-          className="flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 active:scale-100"
+          className="flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-100"
         >
           <BsLinkedin />
         </a>
         <a
           href="https://github.com/CptAllergy"
           target="_blank"
-          className="flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 active:scale-100"
+          className="flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-100"
         >
           <BsGithub />
         </a>

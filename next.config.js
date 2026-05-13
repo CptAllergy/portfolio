@@ -1,14 +1,11 @@
-/** @type {import('next').NextConfig} */
+/** @type {import("next").NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
-            {
-                hostname: "media.licdn.com",
-                protocol: "https"
-            }
-        ]
+  reactStrictMode: true,
+};
 
-    }
-}
-
-module.exports = nextConfig
+// next.config.js
+module.exports = {
+  images: {
+    qualities: [25, 50, 75, 90],
+  },
+};
