@@ -10,7 +10,7 @@ import ThemeContextProvider from "@/context/ThemeContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gonçalo Prates",
+  title: "Gonçalo Prates — Full-Stack Developer",
   description: "Gonçalo Prates Web Portfolio",
   icons: {
     icon: "/favicon.ico",
@@ -23,9 +23,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="scroll-smooth!">
       <body
-        className={`${inter.className} bg-slate-100 pt-28 text-gray-950 sm:pt-36 dark:bg-gray-900 dark:text-gray-50/90`}
+        className={`${inter.className} bg-mauve-100 text-gray-950 dark:bg-gray-900 dark:text-gray-50/90`}
       >
         <ThemeContextProvider>
           <ActiveSectionContextProvider>

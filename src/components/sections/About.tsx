@@ -10,13 +10,25 @@ const About = () => {
     <section
       ref={ref}
       id="about"
-      className="mb-28 max-w-[45rem] scroll-mt-28 text-center leading-8 sm:mb-40"
+      className="mb-28 max-w-180 scroll-mt-28 text-justify leading-8 sm:mb-40"
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I began seriously programming in 2018, when I enrolled in University at
-        Nova School of Science and Technology. During the 5 years I spent
-        studying, besides the many projects and tests, I was an{" "}
+        <span className="font-bold">Hello, my name is Gonçalo </span>
+        and I am a <span className="underline">full-stack developer</span>. I
+        have a Master&apos;s in{" "}
+        <span className="underline">Computer Science and Engineering</span> and
+        I&apos;m mostly interested in{" "}
+        <span className="font-bold">back-end </span>
+        development but I also enjoy{" "}
+        <span className="font-bold">web-development </span>
+        and learning about <span className="font-bold">machine-learning </span>.
+        I am most familiar with{" "}
+        <span className="italic underline">Spring Boot </span>
+        and <span className="italic underline"> React</span>. I began seriously
+        programming in 2018, when I enrolled in University at Nova School of
+        Science and Technology. During the 5 years I spent studying, besides the
+        many projects and tests, I was an{" "}
         <span className="font-bold">intern at a consulting company</span>,
         participated in a{" "}
         <span className="font-bold">research project with a scholarship</span>,

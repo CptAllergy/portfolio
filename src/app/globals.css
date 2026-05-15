@@ -2,6 +2,10 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+    --color-primary: #6750A4;
+}
+
 html {
     --line-color: #e5e7eb
 }
@@ -9,3 +13,4 @@ html {
 html.dark {
     --line-color: rgba(255, 255, 255, 0.2)
 }
+

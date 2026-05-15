@@ -1,5 +1,10 @@
 import project1Image from "../../public/project1.png";
-import { GraduationCapIcon } from "lucide-react";
+import {
+  BriefcaseBusinessIcon,
+  FileCogIcon,
+  GraduationCapIcon,
+  NotebookPenIcon,
+} from "lucide-react";
 import React from "react";
 
 export const links = [
@@ -68,24 +73,32 @@ export const skillsData = [
 
 export const experiencesData = [
   {
-    title: "Master’s in Computer Science and Engineering",
-    location: "NOVA School of Science and Technology",
-    description: "Final Average: 17/20",
-    icon: React.createElement(GraduationCapIcon),
-    date: "2018-2023",
+    title: "Software Engineer",
+    location: "Motorola Solutions",
+    description:
+      "Full-stack development of real-time, enterprise-scale surveillance and access control systems, specializing in alarm event detection and incident response workflows.",
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: "2024-Present",
   },
   {
     title: "Master’s in Computer Science and Engineering",
     location: "NOVA School of Science and Technology",
-    description: "Final Average: 17/20",
+    description: "Final Average: 17/20.",
     icon: React.createElement(GraduationCapIcon),
     date: "2018-2023",
   },
   {
-    title: "Master’s in Computer Science and Engineering",
-    location: "NOVA School of Science and Technology",
-    description: "a",
-    icon: React.createElement(GraduationCapIcon),
-    date: "2018-2023",
+    title: "Part-time IT teacher",
+    location: "Almada",
+    description: "Teaching children about digital literacy.",
+    icon: React.createElement(NotebookPenIcon),
+    date: "2022",
+  },
+  {
+    title: "Consulting Internship",
+    location: "LinkCom - Link Consulting",
+    description: "Internship centered on invoice processing automation.",
+    icon: React.createElement(FileCogIcon),
+    date: "2021",
   },
 ];

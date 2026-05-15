@@ -1,6 +1,6 @@
 import About from "@/components/sections/About";
 import Experience from "@/components/sections/Experience";
-import Intro from "@/components/sections/Intro";
+import Intro from "../components/sections/Intro";
 import Projects from "@/components/sections/Projects";
 import SectionDivider from "@/components/SectionDivider";
 import Skills from "@/components/sections/Skills";
