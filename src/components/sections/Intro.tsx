@@ -1,10 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { useSectionInView } from "@/lib/hooks";
+import { ArrowRight, Download } from "lucide-react";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
@@ -13,24 +12,9 @@ const Intro = () => {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] scroll-mt-[100rem] text-center sm:mb-0"
+      className="mt-16 mb-28 max-w-[50rem] scroll-mt-[100rem] text-center sm:mb-0"
     >
-      <div className="flex items-center justify-center">
-        <div>
-          {/*TODO add some better coloring to the image and smooth it. Increase the size and zoom into the face (less background)*/}
-          <Image
-            src="/profile.png"
-            alt="Portrait"
-            width="192"
-            height="192"
-            quality="95"
-            priority={true}
-            className="h-44 w-44 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
-          />
-        </div>
-      </div>
-
-      <h1 className="mt-4 mb-10 px-4 text-2xl !leading-[1.5] font-medium sm:text-3xl">
+      <h1 className="mb-10 px-4 text-2xl !leading-[1.5] font-medium sm:text-3xl">
         <span className="font-bold">Hello, my name is Gonçalo </span>
         and I am a <span className="underline">full-stack developer</span>. I
         have a Master&apos;s in{" "}
@@ -46,32 +30,33 @@ const Intro = () => {
       </h1>
 
       <div className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row">
+        {/*TODO what to do about this button? Contact section does not exist*/}
         <Link
           href="#contact"
           className="group flex items-center gap-2 rounded-full border border-black/10 bg-gray-900 px-7 py-3 text-white transition outline-none hover:scale-105 hover:bg-gray-950 active:scale-100"
         >
           Contact me here{" "}
-          <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
+          <ArrowRight className="opacity-70 transition group-hover:translate-x-1" />
         </Link>
         <a
           href="/CV-EN.pdf"
           download
-          className="group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 transition outline-none hover:scale-105 active:scale-100"
+          className="group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 transition outline-none hover:scale-105 active:scale-100 dark:bg-white/10"
         >
           Download CV{" "}
-          <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
+          <Download className="opacity-60 transition group-hover:translate-y-1" />
         </a>
         <a
           href="https://www.linkedin.com/in/goncaloprates/"
           target="_blank"
-          className="flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-100"
+          className="flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-100 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
         <a
           href="https://github.com/CptAllergy"
           target="_blank"
-          className="flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-100"
+          className="flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-100 dark:bg-white/10 dark:text-white/60"
         >
           <BsGithub />
         </a>

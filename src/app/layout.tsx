@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/sections/Header";
 import ActiveSectionContextProvider from "@/context/ActiveSectionContext";
 import React from "react";
+import ThemeSwitcher from "@/components/ThemeSwitcher";
+import ThemeContextProvider from "@/context/ThemeContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +13,7 @@ export const metadata: Metadata = {
   title: "Gonçalo Prates",
   description: "Gonçalo Prates Web Portfolio",
   icons: {
-    icon: "/favicon2.ico",
+    icon: "/favicon.ico",
   },
 };
 
@@ -23,12 +25,15 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} bg-slate-100 pt-28 text-gray-950 sm:pt-36`}
+        className={`${inter.className} bg-slate-100 pt-28 text-gray-950 sm:pt-36 dark:bg-gray-900 dark:text-gray-50/90`}
       >
-        <ActiveSectionContextProvider>
-          <Header />
-          {children}
-        </ActiveSectionContextProvider>
+        <ThemeContextProvider>
+          <ActiveSectionContextProvider>
+            <Header />
+            {children}
+            <ThemeSwitcher />
+          </ActiveSectionContextProvider>
+        </ThemeContextProvider>
       </body>
     </html>
   );
