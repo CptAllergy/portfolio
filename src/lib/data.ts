@@ -1,4 +1,8 @@
-import project1Image from "../../public/project1.png";
+import projectAfterSightsImage from "../../public/proj_after.png";
+import projectBudgetTrackerImage from "../../public/proj_bt.png";
+import projectSidequestImage from "../../public/proj_sq.png";
+import projectSamsungConverterImage from "../../public/proj_sc.png";
+
 import {
   BriefcaseBusinessIcon,
   FileCogIcon,
@@ -32,43 +36,54 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "AfterSights",
-    description: "Event browsing application",
-    tags: ["React", "Next.js", "Tailwind", "Spring Boot", "Kotlin"],
-    imageUrl: project1Image,
+    title: "Budget Tracker",
+    description: "Money tracking application with group balance settlements.",
+    tags: ["React", "Next.js", "Tailwind", "Firebase", "Firestore"],
+    imageUrl: projectBudgetTrackerImage,
+    projectUrl: "https://github.com/CptAllergy/budget-tracker",
   },
   {
-    title: "My Trainer",
-    description: "Event browsing application",
-    tags: ["React", "Next.js", "Tailwind", "Spring Boot", "Kotlin"],
-    imageUrl: project1Image,
+    title: "Sidequest",
+    description:
+      "Hobby tracking app. Plan and remember your games, shows or projects.",
+    tags: ["Go", "React", "Vite", "Tailwind", "Postgres"],
+    imageUrl: projectSidequestImage,
+    projectUrl: "https://github.com/CptAllergy/sidequest",
+  },
+  {
+    title: "AfterSights",
+    description: "Map based event browsing application.",
+    tags: ["Kotlin", "React", "Next.js", "Tailwind", "Spring Boot", "Postgres"],
+    imageUrl: projectAfterSightsImage,
   },
   {
     title: "Samsung Converter",
-    description: "Event browsing application",
-    tags: ["FFMPEG", "Java"],
-    imageUrl: project1Image,
+    description:
+      "A simple program to convert video files to a SamsungTV compatible format and extract embedded subtitles.",
+    tags: ["Java", "FFmpeg"],
+    imageUrl: projectSamsungConverterImage,
+    projectUrl: "https://github.com/CptAllergy/SamsungTV-Video-Converter",
   },
 ];
 
 export const skillsData = [
-  "Java",
-  "React",
-  "Next.js",
-  "Tailwind",
-  "Spring Boot",
-  "Kotlin",
-  "Javascript",
-  "Typescript",
   "Golang",
-  "Github Actions",
+  "Java",
+  "Kotlin",
+  "TypeScript",
+  "JavaScript",
+  "Spring Boot",
+  "Microservices",
+  "Kafka",
   "SQL",
   "PostgreSQL",
   "Firestore",
-  "ArgoCD",
+  "Next.js",
+  "React",
+  "Tailwind",
   "Kubernetes",
-  "Kafka",
-  "Microservices",
+  "ArgoCD",
+  "Github Actions",
 ];
 
 export const experiencesData = [

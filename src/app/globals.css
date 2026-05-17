@@ -4,13 +4,17 @@
 
 @theme {
     --color-primary: #6750A4;
+    --color-primary-hover: #4c387e;
+    --color-primary-dark-hover: #7765b3;
+    --color-secondary-dark: #D0BCFF;
+    --color-secondary-dark-hover: #af90ed;
 }
 
 html {
-    --line-color: #e5e7eb
+    --line-color: #e5e7eb;
 }
 
 html.dark {
-    --line-color: rgba(255, 255, 255, 0.2)
+    --line-color: rgba(255, 255, 255, 0.2);
 }
 

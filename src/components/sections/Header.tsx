@@ -1,7 +1,6 @@
 "use client";
 
 import { links } from "@/lib/data";
-import Link from "next/link";
 import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 import { cn } from "@/lib/utils";
 
@@ -19,12 +18,12 @@ const Header = () => {
               key={link.hash}
               className="flex h-3/4 items-center justify-center"
             >
-              <Link
+              <a
                 href={link.hash}
                 className={cn(
-                  "hover:text-primary flex w-full items-center justify-center px-3 py-3 font-semibold transition dark:text-gray-500 dark:hover:text-gray-300",
+                  "hover:text-primary dark:hover:text-secondary-dark flex w-full items-center justify-center px-3 py-3 font-semibold transition dark:text-gray-500",
                   {
-                    "text-primary underline decoration-2 underline-offset-8 dark:text-gray-200":
+                    "text-primary dark:text-secondary-dark underline decoration-2 underline-offset-8":
                       activeSection === link.name,
                   }
                 )}
@@ -34,7 +33,7 @@ const Header = () => {
                 }}
               >
                 {link.name}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>

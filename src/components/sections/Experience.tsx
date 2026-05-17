@@ -11,7 +11,7 @@ import { experiencesData } from "@/lib/data";
 import { useThemeContext } from "@/context/ThemeContext";
 
 const Experience = () => {
-  const { ref } = useSectionInView("Experience", 0.5);
+  const { ref } = useSectionInView("Experience", 0.2);
   const { theme } = useThemeContext();
 
   return (
@@ -42,13 +42,13 @@ const Experience = () => {
             date={item.date}
             iconStyle={{
               background:
-                theme === "light" ? "white" : "rgba(255,255,255, 0.15)",
+                theme === "light" ? "white" : "oklch(0.241 0.035 257.671)",
               fontSize: "1.5rem",
             }}
             icon={item.icon}
           >
             <h3 className="text-lg font-semibold capitalize">{item.title}</h3>
-            <p className="text-primary mt-0! text-sm font-normal">
+            <p className="text-primary dark:text-secondary-dark mt-0! text-sm font-normal">
               {item.location}
             </p>
             <p className="mt-1! text-sm font-normal! text-gray-700 dark:text-white/75">
