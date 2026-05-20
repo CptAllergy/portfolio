@@ -48,7 +48,7 @@ export const projectsData = [
       "Hobby tracking app. Plan and remember your games, shows or projects.",
     tags: ["Go", "React", "Vite", "Tailwind", "Postgres"],
     imageUrl: projectSidequestImage,
-    projectUrl: "https://github.com/CptAllergy/sidequest",
+    projectUrl: "https://github.com/CptAllergy/sidequest-api",
   },
   {
     title: "AfterSights",
